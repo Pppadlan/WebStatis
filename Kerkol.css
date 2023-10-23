@@ -92,6 +92,6 @@ main {
 }
 
 .more {
-    display: none;
+    display: flex;
   }
   
