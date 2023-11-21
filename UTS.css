@@ -1,0 +1,196 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-color: #f25c05;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #f24405;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+ol.b {
+    list-style-type: square;
+  }  
+
+/* Style the main content area */
+main {
+    margin: 0px;
+    padding: 10px;
+    background-color: #f28705;
+}
+
+/* Style the sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style headings */
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+h3 {
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Style paragraphs */
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Style the footer */
+footer, h5 {
+    background-color: #f24405;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    text-align: center;
+    width: 100%; 
+    height: auto;
+}
+
+.star-icon {
+    font-size: 30px;
+    color: #000000; 
+    -webkit-text-stroke: 2px rgb(0, 0, 0); 
+    }
+
+.star-outline {
+    font-size: 30px; 
+    color: #f24405; 
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+
+.wide-search-widget {
+    text-align: center;
+    color: #000000;
+}
+
+.wide-search-widget form {
+    display:inline-flexbox;
+    color: #f25c05;
+}
+
+.wide-search-widget input[type="text"] {
+    width: 100%; 
+    padding: 0px;
+    border: 1px solid #f25c05;
+    border-radius: 0px;
+    text-align: center;
+    background-color: #f25c05;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply some basic styling to your sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 320px; /* Adjust the width as needed */
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+}
+
+.content {
+    margin-left: 300px; /* Adjust this to match the width of the sidebar + some margin */
+    padding: 20px;
+}
+.widget {
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+}
+/* 
+.content {
+    flex: 1;
+    padding: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the gallery container */
+.gallery-container {
+    margin-left: 350px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Style for each gallery item */
+.gallery-item {
+    width: calc(25% - 20px); /* 25% width for four items in a row with 20px gap */
+    margin: 0;
+}
+
+/* Style for images */
+.gallery-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for descriptions */
+.gallery-description {
+    text-align: center;
+}
+
+
+
+
